@@ -5,6 +5,7 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
+from tokenizer import custom_tokenizer
 
 # Download necessary NLTK data
 nltk.download('punkt')
